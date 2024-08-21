@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section#banner-section {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 100vw;
+    height: 850px;
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+    align-items: center;
+    position: relative;
+}
+section#banner-section div h1 {
+    font-size: 68px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+section#banner-section div p {
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+section#banner-section div button {
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+section#banner-section figure img {
+    position: absolute;
+    bottom: 0;
+    right: 240px;
+}
+section#our-featured-flowers  {
+    width: 100vw;
+
+    margin-top: 32px;
+}
+section#our-featured-flowers h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+section#our-featured-flowers p {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 5px;
+}
+section#our-featured-flowers div#flowers-image {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+section#our-featured-flowers div#flowers-image img#first-image {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 40px 40px 0px;
+    width: 400px;
+    height: 500px;
+    
+}
+section#our-featured-flowers div#flowers-image img#second-image {
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(5, 151, 160, 0.15);
+padding: 40px 40px 0px;
+width: 400px;
+height: 500px;
+}
+section#our-featured-flowers div#flowers-image img#third-image {
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(71, 125, 17, 0.15);
+padding: 40px 40px 0px;
+width: 400px;
+height: 500px;
+}
+section#our-featured-flowers div#flowers-image a {
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+}
+section#services {
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+section#services a {
+    color: black;
+}
+
+section#hot-deals {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 100vw;
+    height: 620px;
+    display: flex;
+    gap: 100px;
+    padding-left: 240px;
+    padding-right: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+section#hot-deals div h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+section#hot-deals div p {
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+section#hot-deals div button {
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+section#hot-deals figure img {
+   width: 400px;
+   height:450px;
+}
+section#instragram  h1{
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+section#instragram p {
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section#instragram div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+section#latest-deals {
+   text-align: center;
+   padding: 200px;
+   background-image: url("./images/Rectangle\ 9.png");
+   background-repeat: no-repeat;
+   background-position: center;
+}
+section#latest-deals  h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+section#latest-deals  p {
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+section#latest-deals input {
+    height: 40px;
+    width: 300px;
+    border: none;
+    padding-left: 10px;
+    
+}
+
+section#latest-deals  button {
+    background-color: #E55473;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    height: 40px;
+}
+footer {
+    background-color: black;
+    padding: 100px 240px;
+    text-align: center;
+}
+footer h1 {
+    color: #E55473;
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+footer h1 span{
+    color: white;
+}
+footer p#second{
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px; 
+}
+footer  p#first {
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
